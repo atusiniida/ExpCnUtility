@@ -30,10 +30,6 @@ varianceの高い5000遺伝子にしぼる
 perl  ExpCnUtility/perl/expression.pl  -v 5000  exp.tab  > exp2.tab
 ```
 
-annotation.chipを使ってprobe IDからgene symbolに変換する 
-```
-perl perl/expression.pl  -a annotation.chip -R exp.tab  > exp2.tab
-```
 
 ## コピー数データ（seg format)のprocessiong
 seg format
